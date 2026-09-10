@@ -1,0 +1,632 @@
+/*Home Section*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/89149240ff703e4a1a6e0da1ff5f45cd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    margin: 10px 10px;
+}
+
+header .logo {
+    font-size: 1.4em;
+    font-family: cursive;
+    text-shadow: color(from color srgb r g b);
+    font-weight: 900;
+    color: rgb(247, 210, 5);
+    text-decoration: wavy;
+    text-shadow: 0 0 10px white;
+}
+
+header .logo i {
+    color: rgb(4, 1, 46);
+}
+
+header bdo {
+    color: rgb(4, 1, 46);
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 6px 12px;
+    font-size: 1.35em;
+    backdrop-filter: blur(0.8em);
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+}
+
+header ul a {
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header ul a:hover {
+    color: darkolivegreen;
+    font-size: 1.4;
+}
+
+header .btn {
+    display: flex;
+    border-radius: 10px;
+    padding: 4px 8px;
+    background: red;
+    box-shadow: 10px black;
+}
+
+header .btn a {
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-sec {
+    background: transparent;
+    backdrop-filter: blur(0.25em);
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+    margin-top: 30px;
+    margin: 10px;
+    padding: 30px 10px;
+}
+
+.hero-sec h6 {
+    color: rgb(184, 29, 2);
+    font-size: 0.865em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-sec h1 {
+    color: aliceblue;
+    font-size: 2.5em;
+    font-family: monospace;
+}
+
+.hero-sec p {
+    color: aliceblue;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 0.92em;
+}
+
+.hero-sec .srch {
+    width: 400px;
+    padding: 4px 4px;
+    border-radius: 5px;
+    border: white;
+}
+
+.hero-sec .parts {
+    color: white;
+    background: red;
+    border-radius: 7.5px;
+    margin-top: 10px;
+    padding: 5.5px 5.5px;
+    font-size: 0.875em;
+}
+
+.hero-sec .seller {
+    color: white;
+    background: transparent;
+    border-radius: 7.5px;
+    margin-top: 10px;
+    padding: 5.5px 5.5px;
+    font-size: 0.875em;
+}
+
+.categories {
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.categories h1 {
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(243, 169, 57);
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 40px;
+}
+
+.categories img {
+    width: 150px;
+    height: 150px;
+}
+
+.feat-sec {
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.feat-sec h1 {
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(243, 169, 57);
+}
+
+.feat-sec-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.feat-sec .part {
+    background: transparent;
+    backdrop-filter: blur(0.5em);
+    padding: 15px 15px;
+    text-align: center;
+    box-shadow: 0 5px 25px black;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.feat-sec .part:hover {
+    backdrop-filter: blur(0.25em);
+    padding: 17px 17px;
+    transform: translate(5px, -5px);
+}
+
+.feat-sec .part img {
+    height: 200px;
+    width: 270px;
+}
+
+.feat-sec .part h4 {
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.feat-sec .part p {
+    font-family: monospace;
+    font-style: italic;
+    color: white;
+    font-size: 1.2em;
+}
+
+.feat-sec .part h3 {
+    font-family: monospace;
+    font-style: italic;
+    color: white;
+    font-size: 1.2em;
+}
+
+.feat-sec .part .btn {
+    padding: 6px 12px;
+    background: red;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.feat-sec .part .btn a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+/*Parts Section*/
+.back-part-htm {
+    background-image: url("../img/5c882491d695d2e57bb9f30d10210898.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: contain;
+}
+
+.parts-hero-sec {
+    margin: 20px 10px;
+    padding: 30px 10px;
+    background-color: rgb(5, 5, 78);
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+}
+
+.parts-hero-sec h1 {
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.3em;
+}
+
+.parts-hero-sec p {
+    color: white;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 1em;
+    padding: 10px;
+}
+
+/*Side bar*/
+.sidebar {
+    display: block;
+    background: white;
+    margin: 10px 10px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 60px;
+    float: left;
+}
+
+.sidebar h2 {
+    font-size: 1.7em;
+    font-family: fantasy;
+    text-align: left;
+}
+
+.sidebar ul li {
+    padding: 12px 12px;
+    list-style: none;
+}
+
+.sidebar ul li i {
+    color: rgb(4, 4, 78);
+    font-size: 1.3em;
+    transition: transform 0.2s ease-in-out, background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: rgb(4, 4, 78);
+    font-size: 1.3em;
+    font-family: cursive;
+    transition: transform 0.2s ease-in-out, background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+    color: brown;
+}
+
+.sidebar ul li a:hover i {
+    color: brown;
+}
+
+.sidebar ul
+
+/*Sidebar Ends*/
+.parts-feat-sec {
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.parts-feat-sec .part-search {
+    display: flex;
+    width: auto;
+    margin: 10px;
+}
+
+.parts-feat-sec .part-search input {
+    flex: 1;
+    padding: 14px 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.parts-feat-sec-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.parts-feat-sec .part {
+    background: transparent;
+    backdrop-filter: blur(0.5em);
+    padding: 15px 15px;
+    text-align: center;
+    box-shadow: 0 5px 25px black;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.parts-feat-sec .part:hover {
+    background: rgb(1, 1, 80);
+    padding: 17px 17px;
+    transform: translateY(5px);
+}
+
+.parts-feat-sec .part img {
+    height: 100px;
+    width: 150px;
+}
+
+.parts-feat-sec .part h4 {
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.parts-feat-sec .part a {
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(131, 12, 12);
+    font-family: cursive;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.parts-feat-sec .part a:hover {
+    font-size: 1.15em;
+    color: rgb(136, 139, 139);
+}
+
+/*About Page*/
+.back-about-htm {
+    background-image: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-hero-sec {
+    background: transparent;
+    margin: 20px 10px;
+    padding: 10px 10px;
+}
+
+.about-hero-sec h2 {
+    color: cornsilk;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.89em;
+}
+
+.about-hero-sec p {
+    color: white;
+    font-family: cursive;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.about-content-info {
+    background-color: white;
+    margin: 15px 30px;
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+}
+
+.mg-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.mg-info .mg img {
+    width: 30em;
+    height: 20em;
+    border-radius: 15px;
+}
+
+.mg-info .content-info h1 {
+    font-family: cursive;
+}
+
+.mg-info .content-info .logo {
+    font-size: 1.6em;
+    font-family: cursive;
+    text-shadow: color(from color srgb r g b);
+    font-weight: 900;
+    color: rgb(247, 210, 5);
+    text-decoration: wavy;
+    text-shadow: 0 0 10px white;
+}
+
+.content-info .logo bdo {
+    color: rgb(4, 1, 46);
+}
+
+.mg-info .content-info p {
+    padding: 5px;
+    font-size: 1.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-content-info .float {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.float .float-grd {
+    display: flex;
+    gap: 3px;
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    padding: 30px 60px;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.float .float-grd:hover {
+    background: rgb(4, 1, 46);
+    color: white;
+    padding: 40px 80px;
+    transform: translatey(-10px)
+}
+
+.float .float-grd i {
+    font-size: 2.5em;
+    color: rgb(4, 1, 46);
+}
+
+.float .float-grd:hover i {
+    color: white;
+    font-size: 2.8em;
+}
+
+.float .float-grd p {
+    font-size: 1.2em;
+    font-family: cursive;
+    color: rgb(4, 1, 46);
+}
+
+.float .float-grd:hover p {
+    color: white;
+    font-size: 1.4em;
+}
+
+/*Seller Page*/
+.back-seller-htm {
+    background-image: url("../img/76f2249c8acd79264c0da9fcf17704d9.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.seller-hero-sec {
+    background: transparent;
+    margin: 20px 10px;
+    padding: 10px 10px;
+}
+
+.seller-hero-sec h1 {
+    color: cornsilk;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.89em;
+}
+
+.seller-hero-sec p {
+    color: white;
+    font-family: cursive;
+    font-size: 1.em;
+    font-style: italic;
+}
+
+.seller-feat-sec {
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.seller-feat-sec .seller-search-grid {
+    display: flex;
+    gap: 15px;
+    margin: 10px 10px;
+}
+
+.seller-feat-sec .seller-search {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.seller-feat-sec .seller-search-grid .seller-search input {
+    flex: 1;
+    padding: 12px 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.seller-feat-sec .seller-search-grid .sort-by {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.seller-feat-sec .seller-search-grid .sort-by label {
+    font-size: 1.2em;
+    color: white;
+    font-family: cursive;
+}
+
+.seller-feat-sec .seller-search-grid .sort-by select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.seller-feat-sec .seller-search-grid .sort-by select option {
+    padding: 8px 12px;
+    font-size: 1em;
+    color: #333;
+    font: 400;
+    font-family: cursive;
+    scrollbar-color: rgb(4, 4, 109);
+}
+
+.seller-feat-sec .seller-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.seller-feat-sec .shops {
+    display: flex;
+    background: white;
+    padding: 15px 15px;
+    text-align: center;
+    box-shadow: 0 5px 25px black;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.seller-feat-sec .shops:hover {
+    background: transparent;
+    color: white;
+    backdrop-filter: blur(0.5em);
+    padding: 17px 17px;
+    transform: translateY(5px);
+}
+
+.seller-feat-sec .shops img {
+    height: 200px;
+    width: 270px;
+}
+
+.seller-feat-sec .shops h3 {
+    font-family: cursive;
+    color: rgb(4, 1, 46);
+}
+
+.seller-feat-sec .shops:hover h3 {
+    color: white;
+}
+
+.seller-feat-sec .shops p {
+    font-family: monospace;
+    font-style: italic;
+    color: rgb(4, 1, 46);
+    font-size: 1.2em;
+}
+
+.seller-feat-sec .shops:hover p {
+    color: rgb(245, 241, 12);
+    text-shadow: 0 0 15px white;
+}
+
+.seller-feat-sec .shops .btn {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: red;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.seller-feat-sec .shops .btn a {
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(3, 3, 66);
+    font-family: cursive;
+}
+
+.seller-feat-sec .shops:hover .btn {
+    background: black;
+}
+
+.seller-feat-sec .shops:hover a {
+    color: white;
+}
