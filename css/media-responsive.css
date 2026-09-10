@@ -32,6 +32,7 @@
 
     header .logo {
         font-size: 1.3em;
+        float: left;
     }
 
     header ul {
