@@ -40,11 +40,12 @@
         flex-wrap: wrap;
         gap: 8px 14px;
         padding: 8px;
-        font-size: 1.4em;
+        font-size: 1.1em;
     }
 
     header ul a {
-        font-size: 1em;
+        font-size: 1.4em;
+        font-family: 'Roboto', sans-serif;
     }
 
     header .btn {
