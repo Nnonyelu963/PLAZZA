@@ -13,15 +13,17 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
-    background: transparent;
-    margin: 10px 10px;
-    position: fixed;
-    left: 0;
-    width: 100%;
+    align-items: center;
+    padding: 10px 20px;
     z-index: 1000;
-    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    background: transparent;
 }
 
 header.hide {
