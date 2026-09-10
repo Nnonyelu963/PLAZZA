@@ -10,11 +10,10 @@
     }
 
     body {
-        width: 100%;
-        overflow-x: hidden;
-        font-size: 14px;
+        background-size: 100% auto;
+        background-repeat: center top;
+        background-repeat: repeat-y;
         background-attachment: scroll;
-        background-size: cover;
     }
 
 
