@@ -32,7 +32,6 @@
 
     header .logo {
         font-size: 1.9em;
-        float: left;
     }
 
     header ul {
@@ -42,7 +41,7 @@
         flex-wrap: wrap;
         gap: 8px 14px;
         padding: 8px;
-        font-size: 0.95em;
+        font-size: 1.95em;
     }
 
     header ul a {
