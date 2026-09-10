@@ -17,6 +17,15 @@ header {
     justify-content: space-between;
     background: transparent;
     margin: 10px 10px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header.hide {
+    transform: translateY(-100%);
 }
 
 header .logo {
