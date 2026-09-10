@@ -46,6 +46,7 @@
     header ul a {
         font-size: 1.4em;
         font-family: 'Roboto', sans-serif;
+        color: rgb(3, 3, 83);
     }
 
     header .btn {
