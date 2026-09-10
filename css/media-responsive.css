@@ -1,14 +1,382 @@
-/* Media Queries for Responsive Design */
+/* ================================
+   MOBILE RESPONSIVE DESIGN
+   ================================ */
+
 @media (max-width: 768px) {
-    body {
-        font-size: 14px;
+
+    /* General */
+    * {
+        box-sizing: border-box;
     }
 
-    .container {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        font-size: 14px;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+
+    /* ================================
+       HEADER / NAVBAR
+       ================================ */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin: 10px;
+    }
+
+    header .logo {
+        font-size: 1.3em;
+    }
+
+    header ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px 14px;
+        padding: 8px;
+        font-size: 0.95em;
+    }
+
+    header ul a {
+        font-size: 1em;
+    }
+
+    header .btn {
+        padding: 5px 10px;
+    }
+
+
+    /* ================================
+       HOME HERO
+       ================================ */
+
+    .hero-sec {
+        margin: 10px;
+        padding: 25px 15px;
+        text-align: center;
+    }
+
+    .hero-sec h1 {
+        font-size: 1.8em;
+        line-height: 1.2;
+    }
+
+    .hero-sec p {
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+    .hero-sec .srch {
+        width: 100%;
+        max-width: 100%;
         padding: 10px;
     }
 
-    .header {
+
+    /* ================================
+       VEHICLE CATEGORIES
+       ================================ */
+
+    .categories {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .categories img {
+        width: 100%;
+        height: auto;
+        max-width: 130px;
+        display: block;
+        margin: auto;
+    }
+
+
+    /* ================================
+       FEATURED PARTS
+       ================================ */
+
+    .feat-sec {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .feat-sec-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .feat-sec .part {
+        padding: 10px;
+    }
+
+    .feat-sec .part img {
+        width: 100%;
+        height: auto;
+        max-width: 180px;
+    }
+
+    .feat-sec .part p,
+    .feat-sec .part h3 {
+        font-size: 0.95em;
+    }
+
+
+    /* ================================
+       PARTS PAGE
+       ================================ */
+
+    .parts-hero-sec {
+        margin: 15px 10px;
+        padding: 25px 15px;
         text-align: center;
+    }
+
+    .parts-hero-sec h1 {
+        font-size: 1.8em;
+    }
+
+    .parts-hero-sec p {
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+
+    /* Sidebar */
+    .sidebar {
+        float: none;
+        width: auto;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .sidebar h2 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .sidebar ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .sidebar ul li {
+        padding: 8px;
+    }
+
+    .sidebar ul li a {
+        font-size: 0.95em;
+    }
+
+
+    /* Parts search */
+    .parts-feat-sec {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .parts-feat-sec .part-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .parts-feat-sec .part-search input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+
+    /* Parts cards */
+    .parts-feat-sec-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .parts-feat-sec .part {
+        padding: 10px;
+    }
+
+    .parts-feat-sec .part img {
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+    }
+
+
+    /* ================================
+       ABOUT PAGE
+       ================================ */
+
+    .about-hero-sec {
+        margin: 15px 10px;
+        text-align: center;
+    }
+
+    .about-hero-sec h2 {
+        font-size: 1.6em;
+    }
+
+    .about-hero-sec p {
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+    .about-content-info {
+        margin: 15px 10px;
+        padding: 20px 15px;
+    }
+
+    .mg-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mg-info .mg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mg-info .content-info p {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    .about-content-info .float {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .float .float-grd {
+        padding: 20px;
+        justify-content: center;
+    }
+
+
+    /* ================================
+       SELLERS PAGE
+       ================================ */
+
+    .seller-hero-sec {
+        margin: 15px 10px;
+        text-align: center;
+    }
+
+    .seller-hero-sec h1 {
+        font-size: 1.8em;
+    }
+
+    .seller-hero-sec p {
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+    .seller-feat-sec {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .seller-feat-sec .seller-search-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+    }
+
+    .seller-feat-sec .seller-search {
+        width: 100%;
+        margin: 0;
+    }
+
+    .seller-feat-sec .seller-search input {
+        width: 100%;
+    }
+
+    .seller-feat-sec .seller-search-grid .sort-by {
+        margin: 0;
+        justify-content: center;
+    }
+
+
+    /* Seller cards */
+    .seller-feat-sec .seller-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .seller-feat-sec .shops {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .seller-feat-sec .shops img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    .seller-feat-sec .shops h3 {
+        font-size: 1.1em;
+    }
+
+    .seller-feat-sec .shops p {
+        font-size: 1em;
+        line-height: 1.4;
+    }
+}
+
+
+/* =================================
+   VERY SMALL PHONES
+   ================================= */
+
+@media (max-width: 480px) {
+
+    header ul {
+        gap: 7px 10px;
+        font-size: 0.85em;
+    }
+
+    .hero-sec h1 {
+        font-size: 1.55em;
+    }
+
+    .categories-grid,
+    .feat-sec-grid,
+    .parts-feat-sec-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .categories img {
+        max-width: 110px;
+    }
+
+    .feat-sec .part img {
+        max-width: 150px;
+    }
+
+    .parts-feat-sec .part img {
+        max-width: 130px;
+    }
+
+    .sidebar ul {
+        grid-template-columns: 1fr;
     }
 }
