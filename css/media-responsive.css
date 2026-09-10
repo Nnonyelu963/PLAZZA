@@ -10,7 +10,7 @@
     }
 
     body {
-        background-size: 100% auto;
+        background-size: 100% contain;
         background-repeat: center top;
         background-repeat: repeat-y;
         background-attachment: scroll;
