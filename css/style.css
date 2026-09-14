@@ -6,28 +6,19 @@
 }
 
 body {
-    background-image: url("../img/89149240ff703e4a1a6e0da1ff5f45cd.jpg");
+    background-image: url("../img/6412c33d0c3c21067840c121eb239ef5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    z-index: 1000;
-    transition: transform 0.3s ease-in-out;
+    padding: 10px 10px;
     background: transparent;
-}
-
-header.hide {
-    transform: translateY(-100%);
 }
 
 header .logo {
@@ -40,8 +31,9 @@ header .logo {
     text-shadow: 0 0 10px white;
 }
 
-header .logo i {
-    color: rgb(4, 1, 46);
+header .logo img {
+    width: 150px;
+    height: 100px;
 }
 
 header bdo {
@@ -49,14 +41,27 @@ header bdo {
 }
 
 header ul {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     list-style: none;
     padding: 6px 12px;
-    font-size: 1.35em;
-    backdrop-filter: blur(0.8em);
+    font-size: 1.2em;
+    z-index: 1000;
+    background: transparent;
+    backdrop-filter: blur(0.75em);
     border-radius: 15px;
     box-shadow: 0 0 10px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header ul.hide {
+    transform: translate(-50%, -150%);
 }
 
 header ul a {
@@ -86,13 +91,33 @@ header .btn a {
 }
 
 .hero-sec {
+    position: relative;
     background: transparent;
-    backdrop-filter: blur(0.25em);
+    backdrop-filter: blur(0.5em);
     border-radius: 15px;
     box-shadow: 0 0 15px;
-    margin-top: 30px;
-    margin: 10px;
+    margin: 30px;
     padding: 30px 10px;
+    min-height: 31.5em;
+    overflow: hidden;
+}
+
+.hero-sec .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-sec .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 .hero-sec h6 {
@@ -152,13 +177,13 @@ header .btn a {
 
 .categories-grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     gap: 40px;
 }
 
 .categories img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .feat-sec {
@@ -183,7 +208,7 @@ header .btn a {
     backdrop-filter: blur(0.5em);
     padding: 15px 15px;
     text-align: center;
-    box-shadow: 0 5px 25px black;
+    box-shadow: 0 0 5px white;
     transition: transform 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
@@ -233,7 +258,7 @@ header .btn a {
 
 /*Parts Section*/
 .back-part-htm {
-    background-image: url("../img/5c882491d695d2e57bb9f30d10210898.jpg");
+    background-image: url("../img/6a672a6928ea155fb2fed51c34bf2d77.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -375,7 +400,7 @@ header .btn a {
 
 /*About Page*/
 .back-about-htm {
-    background-image: url("../img/home.jpg");
+    background-image: url("../img/60ae0fac72e5560068c1ca3ec61692d0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -489,7 +514,7 @@ header .btn a {
 
 /*Seller Page*/
 .back-seller-htm {
-    background-image: url("../img/76f2249c8acd79264c0da9fcf17704d9.jpg");
+    background-image: url("../img/66202a31c9e111311c414ceaa1fa75b4.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -573,7 +598,7 @@ header .btn a {
 .seller-feat-sec .seller-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 20px;
 }
 
 .seller-feat-sec .shops {
