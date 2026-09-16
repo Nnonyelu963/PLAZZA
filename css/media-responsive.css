@@ -141,254 +141,261 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+    }
 
-        .parts-hero-sec {
-            margin: 15px 10px;
-            padding: 25px 15px;
-            text-align: center;
-        }
+    .parts-hero-sec {
+        margin: 15px 10px;
+        padding: 25px 15px;
+        text-align: center;
+    }
 
-        .parts-hero-sec h1 {
-            font-size: 1.8em;
-        }
+    .parts-hero-sec h1 {
+        font-size: 1.8em;
+    }
 
-        .parts-hero-sec p {
-            font-size: 0.9em;
-            line-height: 1.5;
-        }
-
-
-        /* Sidebar */
-        .sidebar {
-            float: none;
-            width: auto;
-            margin: 10px;
-            padding: 15px;
-        }
-
-        .sidebar h2 {
-            text-align: center;
-            font-size: 1.4em;
-        }
-
-        .sidebar ul {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 5px;
-        }
-
-        .sidebar ul li {
-            padding: 8px;
-        }
-
-        .sidebar ul li a {
-            font-size: 0.95em;
-        }
-
-
-        /* Parts search */
-        .parts-feat-sec {
-            padding: 10px;
-            margin: 10px;
-        }
-
-        .parts-feat-sec .part-search {
-            width: 100%;
-            margin: 10px 0;
-        }
-
-        .parts-feat-sec .part-search input {
-            width: 100%;
-            font-size: 14px;
-        }
-
-
-        /* Parts cards */
-        .parts-feat-sec-grid {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-        }
-
-        .parts-feat-sec .part {
-            padding: 10px;
-        }
-
-        .parts-feat-sec .part img {
-            width: 100%;
-            height: auto;
-            max-width: 150px;
-        }
-
-
-        /* ================================
-       ABOUT PAGE
-       ================================ */
-        .back-about-htm {
-            background-image: url("../img/815cac2a0a3620e2a42018b502c18320.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: contain;
-        }
-
-        .about-hero-sec {
-            margin: 15px 10px;
-            text-align: center;
-        }
-
-        .about-hero-sec h2 {
-            font-size: 1.6em;
-        }
-
-        .about-hero-sec p {
-            font-size: 0.9em;
-            line-height: 1.5;
-        }
-
-        .about-content-info {
-            margin: 15px 10px;
-            padding: 20px 15px;
-        }
-
-        .mg-info {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .mg-info .mg img {
-            width: 100%;
-            height: auto;
-        }
-
-        .mg-info .content-info p {
-            font-size: 1em;
-            line-height: 1.6;
-        }
-
-        .about-content-info .float {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 15px;
-            margin-top: 25px;
-        }
-
-        .float .float-grd {
-            padding: 20px;
-            justify-content: center;
-        }
-
-
-        /* ================================
-       SELLERS PAGE
-       ================================ */
-
-        .seller-hero-sec {
-            margin: 15px 10px;
-            text-align: center;
-        }
-
-        .seller-hero-sec h1 {
-            font-size: 1.8em;
-        }
-
-        .seller-hero-sec p {
-            font-size: 0.9em;
-            line-height: 1.5;
-        }
-
-        .seller-feat-sec {
-            padding: 10px;
-            margin: 10px;
-        }
-
-        .seller-feat-sec .seller-search-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin: 10px 0;
-        }
-
-        .seller-feat-sec .seller-search {
-            width: 100%;
-            margin: 0;
-        }
-
-        .seller-feat-sec .seller-search input {
-            width: 100%;
-        }
-
-        .seller-feat-sec .seller-search-grid .sort-by {
-            margin: 0;
-            justify-content: center;
-        }
-
-
-        /* Seller cards */
-        .seller-feat-sec .seller-grid {
-            grid-template-columns: 1fr;
-            gap: 20px;
-        }
-
-        .seller-feat-sec .shops {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 15px;
-        }
-
-        .seller-feat-sec .shops img {
-            width: 100%;
-            max-width: 280px;
-            height: auto;
-        }
-
-        .seller-feat-sec .shops h3 {
-            font-size: 1.1em;
-        }
-
-        .seller-feat-sec .shops p {
-            font-size: 1em;
-            line-height: 1.4;
-        }
+    .parts-hero-sec p {
+        font-size: 0.9em;
+        line-height: 1.5;
     }
 
 
-    /* =================================
+    /* Sidebar */
+    .sidebar {
+        float: none;
+        width: auto;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .sidebar h2 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .sidebar ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .sidebar ul li {
+        padding: 8px;
+    }
+
+    .sidebar ul li a {
+        font-size: 0.95em;
+    }
+
+
+    /* Parts search */
+    .parts-feat-sec {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .parts-feat-sec .part-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .parts-feat-sec .part-search input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+
+    /* Parts cards */
+    .parts-feat-sec-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .parts-feat-sec .part {
+        padding: 10px;
+    }
+
+    .parts-feat-sec .part img {
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+    }
+
+
+    /* ================================
+       ABOUT PAGE
+       ================================ */
+    .back-about-htm {
+        background-image: url("../img/2561674d6ea0b53a54c38f22b57c604d.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+
+    .about-hero-sec {
+        margin: 15px 10px;
+        text-align: center;
+    }
+
+    .about-hero-sec h2 {
+        font-size: 1.6em;
+    }
+
+    .about-hero-sec p {
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+    .about-content-info {
+        margin: 15px 10px;
+        padding: 20px 15px;
+    }
+
+    .mg-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mg-info .mg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mg-info .content-info p {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    .about-content-info .float {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .float .float-grd {
+        padding: 20px;
+        justify-content: center;
+    }
+
+
+    /* ================================
+       SELLERS PAGE
+       ================================ */
+    .back-seller-htm {
+        background-image: url("../img/815cac2a0a3620e2a42018b502c18320.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .seller-hero-sec {
+        margin: 15px 10px;
+        text-align: center;
+    }
+
+    .seller-hero-sec h1 {
+        font-size: 1.8em;
+    }
+
+    .seller-hero-sec p {
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+
+    .seller-feat-sec {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .seller-feat-sec .seller-search-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+    }
+
+    .seller-feat-sec .seller-search {
+        width: 100%;
+        margin: 0;
+    }
+
+    .seller-feat-sec .seller-search input {
+        width: 100%;
+    }
+
+    .seller-feat-sec .seller-search-grid .sort-by {
+        margin: 0;
+        justify-content: center;
+    }
+
+
+    /* Seller cards */
+    .seller-feat-sec .seller-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .seller-feat-sec .shops {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .seller-feat-sec .shops img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    .seller-feat-sec .shops h3 {
+        font-size: 1.1em;
+    }
+
+    .seller-feat-sec .shops p {
+        font-size: 1em;
+        line-height: 1.4;
+    }
+}
+
+
+/* =================================
    VERY SMALL PHONES
    ================================= */
 
-    @media (max-width: 480px) {
+@media (max-width: 480px) {
 
-        header ul {
-            gap: 7px 10px;
-            font-size: 0.85em;
-        }
-
-        .hero-sec h1 {
-            font-size: 1.55em;
-        }
-
-        .categories-grid,
-        .feat-sec-grid,
-        .parts-feat-sec-grid {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-        }
-
-        .categories img {
-            max-width: 110px;
-        }
-
-        .feat-sec .part img {
-            max-width: 150px;
-        }
-
-        .parts-feat-sec .part img {
-            max-width: 130px;
-        }
-
-        .sidebar ul {
-            grid-template-columns: 1fr;
-        }
+    header ul {
+        gap: 7px 10px;
+        font-size: 0.85em;
     }
+
+    .hero-sec h1 {
+        font-size: 1.55em;
+    }
+
+    .categories-grid,
+    .feat-sec-grid,
+    .parts-feat-sec-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .categories img {
+        max-width: 110px;
+    }
+
+    .feat-sec .part img {
+        max-width: 150px;
+    }
+
+    .parts-feat-sec .part img {
+        max-width: 130px;
+    }
+
+    .sidebar ul {
+        grid-template-columns: 1fr;
+    }
+}
 }
