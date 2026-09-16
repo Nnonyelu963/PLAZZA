@@ -34,19 +34,44 @@
     }
 
     header ul {
-        width: 100%;
+        position: fixed !important;
+        left: 50% !important;
+        bottom: 15px !important;
+        top: auto !important;
+        right: auto !important;
+
+        width: max-content !important;
+        max-width: calc(100% - 20px);
+
         display: flex;
+        align-items: center;
         justify-content: center;
-        flex-wrap: wrap;
-        gap: 8px 14px;
-        padding: 8px;
-        font-size: 1.1em;
+
+        gap: 10px;
+        padding: 6px 12px;
+
+        transform: translateX(-50%) !important;
+
+        z-index: 9999;
+
+        white-space: nowrap;
+
+        transition: transform 0.3s ease;
+    }
+
+    header ul.hide {
+        transform: translate(-50%, 150%) !important;
+    }
+
+    /*When scrolling bar*/
+    header ul.hide {
+        transform: translate(-50%, 150%);
     }
 
     header ul a {
-        font-size: 1.4em;
+        font-size: 0.798em;
         font-family: 'Roboto', sans-serif;
-        color: rgb(3, 3, 83);
+        color: white;
     }
 
     header .btn {
@@ -397,5 +422,4 @@
     .sidebar ul {
         grid-template-columns: 1fr;
     }
-}
 }

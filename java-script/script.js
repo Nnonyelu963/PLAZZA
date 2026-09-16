@@ -1,12 +1,15 @@
-let lastscrollTop = 0;
-const menu = document.querySelector('header ul');
+let lastScrollTop = 0;
+const nav = document.querySelector("header ul");
 
 window.addEventListener("scroll", function () {
-    let currentScroll = window.scrollY || document.documentElement.scrollTop;
-    if (currentScroll > lastscrollTop && currentScroll > 50) {
-        menu.classList.add('hide');
+
+    let currentScroll = window.scrollY;
+
+    if (currentScroll > lastScrollTop) {
+        nav.classList.add("hide");
     } else {
-        menu.classList.remove('hide');
+        nav.classList.remove("hide");
     }
-    lastscrollTop = currentScroll; // For Mobile or negative scrolling
+
+    lastScrollTop = currentScroll;
 });
