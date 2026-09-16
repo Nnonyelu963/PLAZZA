@@ -21,6 +21,8 @@ header {
     background: transparent;
 }
 
+/*useless
+
 header .logo {
     font-size: 1.4em;
     font-family: cursive;
@@ -30,6 +32,7 @@ header .logo {
     text-decoration: wavy;
     text-shadow: 0 0 10px white;
 }
+    */
 
 header .logo img {
     width: 150px;
@@ -177,8 +180,8 @@ header .btn a {
 
 .categories-grid {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 25px;
 }
 
 .categories img {

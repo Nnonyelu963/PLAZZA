@@ -69,9 +69,11 @@
     }
 
     header ul a {
-        font-size: 0.798em;
-        font-family: 'Roboto', sans-serif;
-        color: white;
+        font-size: 1.35em;
+        font-family: "Arial", sans-serif;
+        color: rgb(104, 113, 245);
+        text-shadow: 0 0 10px black;
+        font-weight: bold;
     }
 
     header .btn {
@@ -116,13 +118,13 @@
     }
 
     .categories-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         gap: 15px;
     }
 
     .categories img {
         width: 100%;
-        height: auto;
+        height: 50px;
         max-width: 130px;
         display: block;
         margin: auto;
@@ -139,7 +141,7 @@
     }
 
     .feat-sec-grid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .feat-sec .part {
@@ -148,13 +150,19 @@
 
     .feat-sec .part img {
         width: 100%;
-        height: auto;
+        height: 180px;
         max-width: 180px;
     }
 
-    .feat-sec .part p,
-    .feat-sec .part h3 {
+    .feat-sec .part h4 {
+        font-size: 1.2em;
+        line-height: 1.4;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .feat-sec .part p {
         font-size: 0.95em;
+        font-family: "Arial", sans-serif;
     }
 
 
@@ -199,7 +207,7 @@
 
     .sidebar ul {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 5px;
     }
 
@@ -209,6 +217,7 @@
 
     .sidebar ul li a {
         font-size: 0.95em;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
 
@@ -231,7 +240,7 @@
 
     /* Parts cards */
     .parts-feat-sec-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 15px;
     }
 
@@ -241,8 +250,18 @@
 
     .parts-feat-sec .part img {
         width: 100%;
-        height: auto;
+        height: 150px;
         max-width: 150px;
+    }
+
+    .parts-feat-sec .part h4 {
+        font-size: 1em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .parts-feat-sec .part a {
+        font-size: 0.912em;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
 
@@ -253,7 +272,7 @@
         background-image: url("../img/2561674d6ea0b53a54c38f22b57c604d.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
+        background-size: cover;
     }
 
     .about-hero-sec {
@@ -268,6 +287,7 @@
     .about-hero-sec p {
         font-size: 0.9em;
         line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .about-content-info {
@@ -286,6 +306,11 @@
         height: auto;
     }
 
+    .content-info h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+    }
+
     .mg-info .content-info p {
         font-size: 1em;
         line-height: 1.6;
@@ -301,6 +326,7 @@
     .float .float-grd {
         padding: 20px;
         justify-content: center;
+        font-family: 'Courier New', Courier, monospace;
     }
 
 
@@ -326,6 +352,7 @@
     .seller-hero-sec p {
         font-size: 0.9em;
         line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .seller-feat-sec {
@@ -347,11 +374,13 @@
 
     .seller-feat-sec .seller-search input {
         width: 100%;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .seller-feat-sec .seller-search-grid .sort-by {
         margin: 0;
         justify-content: center;
+        font-family: 'Courier New', Courier, monospace;
     }
 
 
@@ -375,12 +404,19 @@
     }
 
     .seller-feat-sec .shops h3 {
-        font-size: 1.1em;
+        font-size: 1.3em;
+        font-size: bold;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .seller-feat-sec .shops p {
         font-size: 1em;
         line-height: 1.4;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .seller-feat-sec .shops .btn {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }
 
