@@ -223,6 +223,12 @@
         /* ================================
        ABOUT PAGE
        ================================ */
+        .back-about-htm {
+            background-image: url("../img/815cac2a0a3620e2a42018b502c18320.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: contain;
+        }
 
         .about-hero-sec {
             margin: 15px 10px;
@@ -385,3 +391,4 @@
             grid-template-columns: 1fr;
         }
     }
+}
